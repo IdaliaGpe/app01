@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+h1{
+    color: red
+}
+
+h2{
+    color: green
+}
+
+h3{
+    color: blue
+}
+
+.header{
+    color: black;
+}
+
+div{
+    background-color: goldenrod;
+    color: #c5c5c5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+}
+
+#div-1{
+    width: 30%;
+}
+
+#div-2{
+    width: 50%;
+}
+
+body{
+    background-color: dimgray;
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        background-color: indigo;
+    }
+}
+
+a{
+    color: darkred;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
