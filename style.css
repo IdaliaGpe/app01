@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
 
+
+.sub-category{
+    color: white;
+}
+
 h1{
     color: red
 }
@@ -17,7 +22,7 @@ h3{
 }
 
 div{
-    background-color: goldenrod;
+    background-color: grey;
     color: #c5c5c5;
     font-family: 'Roboto', sans-serif;
     font-size: 14;
@@ -41,8 +46,8 @@ body{
     }
 }
 
-a{
-    color: darkred;
+a, ul{
+    color: white;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
