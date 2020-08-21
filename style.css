@@ -29,20 +29,58 @@ div{
 }
 
 #div-1{
-    width: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 600%;
+    font-weight: bolder;
 }
 
 #div-2{
-    width: 50%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 400%;
+    text-align: center;
 }
 
 body{
     background-color: dimgray;
+    margin: 0%;
+}
+
+.container-elements{
+    height: auto;
+    min-height: 100px;
+}
+
+.element{
+    float: left;
+    width: 20%;
 }
 
 @media only screen and (max-width: 800px){
     body{
         background-color: indigo;
+    }
+    #div-1{
+        width: 100%;
+        text-align: center;
+        font-size: 500%;
+        font-weight: bolder;
+    }
+    
+    .element{
+        float: none;
+        width: 20%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 200%
+    }
+
+    .element:hover{
+        background-color: #fff;
+        color: #000000;
+        transition: background-color 0.5 ease;
     }
 }
 
@@ -50,4 +88,23 @@ a, ul{
     color: white;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    font-size: 150%;
+}
+
+ul{
+    list-style-type: none;
+    /*border-left-style: solid;
+    border-left-width: 4px;
+    margin-left: 100px;
+    padding: 0;*/
+}
+
+.pet{
+    border-left-style: solid;
+    border-left-width: 4px;
+    padding-left: 10px;
+    /*border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #1f2833;
+    border-color: #1f2833;*/
 }
